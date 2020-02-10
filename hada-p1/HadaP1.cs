@@ -8,5 +8,18 @@ namespace hada_p1
 {
     class HadaP1
     {
+        public static double Seconds2Minutes(double s)
+        {
+            double total = 0;
+            if (s == 0)
+            {
+                total = 0;
+            }
+            else
+            {
+                total = s / 60;
+            }
+            return total;
+        }
     }
 }
