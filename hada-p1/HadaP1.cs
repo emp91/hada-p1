@@ -21,5 +21,11 @@ namespace hada_p1
             }
             return total;
         }
+        public static double Minutes2Seconds(double m)
+        {
+            double total = 0;
+            total = m *60;
+            return total;
+        }
     }
 }
